@@ -27,5 +27,3 @@ Route::group(['prefix' => 'admin'], function() {
     return 'admin dashboard';
   });
 });
-Route::get('/', ['as' => 'home.index', 'uses' =>
-'HomeController@index']);
