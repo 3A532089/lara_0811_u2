@@ -79,6 +79,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
+                <a href="{{ route('hello.index') }}">Hello</a>
                     Laravel
                 </div>
 
